@@ -133,7 +133,7 @@ function renderKanban() {
     ['upcoming','inprogress','completed'].forEach(status => {
         const container = document.getElementById(`kanban-${status}-cards`);
         const countEl = document.getElementById(`kanban-${status}-count`);
-        const projects = getVisibleProjects().filter(p=>p.status===status).sort((a,b)=>new Date(a.deadline)-new Date(b.deadline));
+        const projects = getVisibleProjects().filter(p=>p.status===status).sort((a,b)=> status==='completed' ? new Date(b.deadline)-new Date(a.deadline) : new Date(a.deadline)-new Date(b.deadline));
         countEl.textContent = projects.length;
         if (!projects.length) { container.innerHTML=`<div class="empty-state"><p>No ${status==='inprogress'?'in progress':status} projects</p></div>`; return; }
         container.innerHTML = projects.map(p => {
@@ -181,8 +181,9 @@ function renderClients() {
 
 function renderProjects(filter='all') {
     const list = document.getElementById('projects-list');
-    let projects = getVisibleProjects().sort((a,b)=>new Date(a.deadline)-new Date(b.deadline));
+    let projects = getVisibleProjects();
     if (filter!=='all') projects = projects.filter(p=>p.status===filter);
+    projects.sort((a,b)=> (filter==='completed' || (filter==='all' && a.status==='completed' && b.status==='completed')) ? new Date(b.deadline)-new Date(a.deadline) : new Date(a.deadline)-new Date(b.deadline));
     if (!projects.length) { list.innerHTML=`<div class="empty-state"><p>No projects found.</p></div>`; return; }
     list.innerHTML = projects.map(p => {
         const c=getClient(p.clientId), color=c?c.color:'#6C5CE7';
