@@ -551,3 +551,7 @@ body.client-mode .project-actions-col { display: none !important; }
 body.client-mode .kanban-card { cursor: default; }
 body.client-mode .kanban-card:hover { transform: none; border-color: var(--border); }
 body.client-mode .nav-item[data-view="clients"] { display: none !important; }
+
+/* ===== Spin animation ===== */
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.spin { animation: spin 1s linear infinite; }

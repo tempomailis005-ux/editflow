@@ -393,17 +393,37 @@ document.querySelectorAll('.filter-tab').forEach(t=>t.addEventListener('click',(
     renderProjects(t.dataset.filter);
 }));
 
-// ===== Export Data (Admin) =====
-document.getElementById('btn-export-data').addEventListener('click', () => {
-    const json = JSON.stringify(data, null, 2);
-    const blob = new Blob([json], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'data.json';
-    a.click();
-    URL.revokeObjectURL(url);
-    toast('data.json exported! Save it to your project folder, then git push.');
+// ===== Export & Push (Admin) =====
+document.getElementById('btn-export-data').addEventListener('click', async () => {
+    const btn = document.getElementById('btn-export-data');
+    btn.disabled = true;
+    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="spin"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Pushing...';
+
+    try {
+        const res = await fetch('http://localhost:4444/sync', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+        const result = await res.json();
+        if (result.success) {
+            toast(result.message);
+        } else {
+            toast(result.message, 'error');
+        }
+    } catch(e) {
+        // Sync server not running — fallback to download
+        const json = JSON.stringify(data, null, 2);
+        const blob = new Blob([json], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = 'data.json'; a.click();
+        URL.revokeObjectURL(url);
+        toast('Sync server not running. File downloaded instead. Run: node sync-server.js', 'error');
+    }
+
+    btn.disabled = false;
+    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Export';
 });
 
 // ===== Init: load remote data for clients, auto-login =====
