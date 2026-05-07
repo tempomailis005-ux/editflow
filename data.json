@@ -33,6 +33,17 @@
       "createdAt": "2026-05-07T13:21:52.760Z"
     },
     {
+      "id": 30,
+      "clientId": 2,
+      "title": "Life Journey",
+      "description": "",
+      "receivedDate": "2026-05-11",
+      "deadline": "2026-05-11",
+      "charge": 0,
+      "status": "upcoming",
+      "createdAt": "2026-05-07T13:36:31.476Z"
+    },
+    {
       "id": 27,
       "clientId": 2,
       "title": "influncer blind ranking video",
@@ -532,5 +543,5 @@
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 30
+  "nextProjectId": 31
 }
