@@ -11,34 +11,45 @@
   ],
   "projects": [
     {
+      "id": 11,
+      "clientId": 2,
+      "title": "8 Ball Bet match",
+      "description": "Fast Based Meme editing",
+      "receivedDate": "2026-04-13",
+      "deadline": "2026-04-13",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T11:09:08.316Z"
+    },
+    {
+      "id": 10,
+      "clientId": 2,
+      "title": "Madurai plate",
+      "description": "Promotion",
+      "receivedDate": "2026-04-22",
+      "deadline": "2026-04-22",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T11:08:11.708Z"
+    },
+    {
       "id": 9,
       "clientId": 2,
       "title": "montage",
       "description": "Feel good edit",
-      "receivedDate": "2026-04-09",
-      "deadline": "2026-04-09",
+      "receivedDate": "2026-04-11",
+      "deadline": "2026-04-11",
       "charge": 150,
       "status": "completed",
       "createdAt": "2026-05-07T11:06:05.588Z"
-    },
-    {
-      "id": 8,
-      "clientId": 2,
-      "title": "Madurai plate",
-      "description": "Promotiob",
-      "receivedDate": "2026-04-10",
-      "deadline": "2026-04-10",
-      "charge": 150,
-      "status": "completed",
-      "createdAt": "2026-05-07T11:05:32.717Z"
     },
     {
       "id": 7,
       "clientId": 2,
       "title": "Goofy Challenge",
       "description": "Fast Based Meme Editing",
-      "receivedDate": "2026-04-08",
-      "deadline": "2026-04-08",
+      "receivedDate": "2026-04-09",
+      "deadline": "2026-04-09",
       "charge": 150,
       "status": "completed",
       "createdAt": "2026-05-07T11:03:47.349Z"
@@ -48,8 +59,8 @@
       "clientId": 2,
       "title": "food donation",
       "description": "Feel good content",
-      "receivedDate": "2026-04-07",
-      "deadline": "2026-04-07",
+      "receivedDate": "2026-04-08",
+      "deadline": "2026-04-08",
       "charge": 150,
       "status": "completed",
       "createdAt": "2026-05-07T10:31:54.318Z"
@@ -59,8 +70,8 @@
       "clientId": 2,
       "title": "Pommu Video",
       "description": "Promotion",
-      "receivedDate": "2026-04-06",
-      "deadline": "2026-04-06",
+      "receivedDate": "2026-04-07",
+      "deadline": "2026-04-07",
       "charge": 150,
       "status": "completed",
       "createdAt": "2026-05-07T10:30:02.095Z"
@@ -70,8 +81,8 @@
       "clientId": 2,
       "title": "Real Comedy story",
       "description": "Orginal Content",
-      "receivedDate": "2026-04-05",
-      "deadline": "2026-04-05",
+      "receivedDate": "2026-04-04",
+      "deadline": "2026-04-04",
       "charge": 150,
       "status": "completed",
       "createdAt": "2026-05-07T10:29:11.975Z"
@@ -92,8 +103,8 @@
       "clientId": 2,
       "title": "Rs pet Shop",
       "description": "Promotion",
-      "receivedDate": "2026-04-03",
-      "deadline": "2026-04-03",
+      "receivedDate": "2026-04-02",
+      "deadline": "2026-04-02",
       "charge": 150,
       "status": "completed",
       "createdAt": "2026-05-07T10:27:47.631Z"
@@ -195,8 +206,24 @@
       "clientId": 2,
       "amount": 150,
       "date": "2026-05-07T11:06:05.588Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Madurai plate",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T11:08:11.708Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: 8 Ball Bet match",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T11:09:08.316Z"
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 10
+  "nextProjectId": 12
 }
