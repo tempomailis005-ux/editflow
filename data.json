@@ -11,6 +11,94 @@
   ],
   "projects": [
     {
+      "id": 28,
+      "clientId": 2,
+      "title": "fruit blind ranking video",
+      "description": "Game Edit",
+      "receivedDate": "2026-05-09",
+      "deadline": "2026-05-09",
+      "charge": 0,
+      "status": "upcoming",
+      "createdAt": "2026-05-07T12:21:03.144Z"
+    },
+    {
+      "id": 27,
+      "clientId": 2,
+      "title": "influncer blind ranking video",
+      "description": "Game edit",
+      "receivedDate": "2026-05-08",
+      "deadline": "2026-05-08",
+      "charge": 0,
+      "status": "inprogress",
+      "createdAt": "2026-05-07T12:20:28.568Z"
+    },
+    {
+      "id": 26,
+      "clientId": 2,
+      "title": "Singing challenge, with my follower🎤🥰",
+      "description": "Feel good Edit",
+      "receivedDate": "2026-05-07",
+      "deadline": "2026-05-07",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:19:52.264Z"
+    },
+    {
+      "id": 25,
+      "clientId": 2,
+      "title": "Dubai Mama vs Me ⚔️♟️",
+      "description": "Fast Based Meme Editing",
+      "receivedDate": "2026-05-05",
+      "deadline": "2026-05-05",
+      "charge": 400,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:18:53.609Z"
+    },
+    {
+      "id": 24,
+      "clientId": 2,
+      "title": "10 feel good movies Blind Ranking",
+      "description": "Game Edit",
+      "receivedDate": "2026-05-04",
+      "deadline": "2026-05-04",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:17:58.530Z"
+    },
+    {
+      "id": 23,
+      "clientId": 2,
+      "title": "Top 10 Biscuits 🍪 : Blind Ranking 📶",
+      "description": "Game Edit",
+      "receivedDate": "2026-04-28",
+      "deadline": "2026-04-28",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:17:12.121Z"
+    },
+    {
+      "id": 22,
+      "clientId": 2,
+      "title": "Comedy Story In My Life",
+      "description": "Fast Based Meme Editing",
+      "receivedDate": "2026-04-26",
+      "deadline": "2026-04-26",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:16:24.993Z"
+    },
+    {
+      "id": 21,
+      "clientId": 2,
+      "title": "Hair Reel",
+      "description": "Promotion Reel",
+      "receivedDate": "2026-05-02",
+      "deadline": "2026-05-02",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:14:50.482Z"
+    },
+    {
       "id": 20,
       "clientId": 2,
       "title": "Blind Ranking 2",
@@ -382,8 +470,56 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-05-07T12:07:37.692Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Hair Reel",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T12:14:50.482Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Comedy Story In My Life",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T12:16:24.993Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Top 10 Biscuits 🍪 : Blind Ranking 📶",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T12:17:12.121Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: 10 feel good movies Blind Ranking",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T12:17:58.530Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Dubai Mama vs Me ⚔️♟️",
+      "client": "David",
+      "clientId": 2,
+      "amount": 400,
+      "date": "2026-05-07T12:18:53.609Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Singing challenge, with my follower🎤🥰",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T12:19:52.264Z"
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 21
+  "nextProjectId": 29
 }
