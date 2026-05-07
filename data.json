@@ -1,1 +1,145 @@
-{"clients":[],"projects":[],"history":[],"nextClientId":1,"nextProjectId":1}
+{
+  "clients": [
+    {
+      "id": 2,
+      "name": "David",
+      "email": "",
+      "advance": 5750,
+      "color": "#E84393",
+      "accessCode": "Davidinsta*"
+    }
+  ],
+  "projects": [
+    {
+      "id": 2,
+      "clientId": 2,
+      "title": "Rs pet Shop",
+      "description": "Promotion",
+      "receivedDate": "2026-04-03",
+      "deadline": "2026-04-03",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T10:27:47.631Z"
+    },
+    {
+      "id": 3,
+      "clientId": 2,
+      "title": "Gif shop",
+      "description": "Promotion",
+      "receivedDate": "2026-04-04",
+      "deadline": "2026-04-04",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T10:28:26.127Z"
+    },
+    {
+      "id": 4,
+      "clientId": 2,
+      "title": "Real Comedy story",
+      "description": "Orginal Content",
+      "receivedDate": "2026-04-05",
+      "deadline": "2026-04-05",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T10:29:11.975Z"
+    },
+    {
+      "id": 5,
+      "clientId": 2,
+      "title": "Pommu Video",
+      "description": "Promotion",
+      "receivedDate": "2026-04-06",
+      "deadline": "2026-04-06",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T10:30:02.095Z"
+    },
+    {
+      "id": 6,
+      "clientId": 2,
+      "title": "food donation",
+      "description": "Feel good content",
+      "receivedDate": "2026-04-07",
+      "deadline": "2026-04-07",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T10:31:54.318Z"
+    }
+  ],
+  "history": [
+    {
+      "type": "credit",
+      "title": "Advance payment received",
+      "client": "Rahul Sharma",
+      "clientId": 1,
+      "amount": 2000,
+      "date": "2026-05-07T10:02:51.027Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Instagram Reel - Product Launch",
+      "client": "Rahul Sharma",
+      "clientId": 1,
+      "amount": 200,
+      "date": "2026-05-07T10:16:54.842Z"
+    },
+    {
+      "type": "credit",
+      "title": "Advance payment received",
+      "client": "David",
+      "clientId": 2,
+      "amount": 2000,
+      "date": "2026-05-07T10:23:56.984Z"
+    },
+    {
+      "type": "credit",
+      "title": "Advance updated (increased)",
+      "client": "David",
+      "clientId": 2,
+      "amount": 3750,
+      "date": "2026-05-07T10:26:52.239Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Rs pet Shop",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T10:27:47.631Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Gif shop",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T10:28:26.127Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Real Comedy story",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T10:29:11.975Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Pommu Video",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T10:30:02.095Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: food donation",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T10:31:54.318Z"
+    }
+  ],
+  "nextClientId": 3,
+  "nextProjectId": 7
+}
