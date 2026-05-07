@@ -208,6 +208,7 @@ function renderProjects(filter='all') {
         return `<div class="project-row">
             <div class="project-status-dot" style="background:${sc}"></div>
             <div class="project-info"><div class="project-info-title">${esc(p.title)}</div><div class="project-info-client" style="color:${color}">${c?c.name:'Unknown'} <span class="status-badge ${p.status}">${p.status==='inprogress'?'In Progress':p.status}</span></div></div>
+            <div class="project-dates"><div class="project-date-label">Submitted</div><div class="project-date-value">${fmtDate(p.receivedDate)}</div></div>
             <div class="project-dates"><div class="project-date-label">Published</div><div class="project-date-value">${fmtDate(p.deadline)}</div></div>
             <div class="project-charge-col">${p.charge ? fmt(p.charge) : '<span style="color:var(--text-muted)">Pending</span>'}</div>
             <div class="project-actions-col">
