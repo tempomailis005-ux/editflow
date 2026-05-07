@@ -11,6 +11,50 @@
   ],
   "projects": [
     {
+      "id": 20,
+      "clientId": 2,
+      "title": "Blind Ranking 2",
+      "description": "Game Edit",
+      "receivedDate": "2026-04-28",
+      "deadline": "2026-04-28",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:07:37.692Z"
+    },
+    {
+      "id": 19,
+      "clientId": 2,
+      "title": "Free Fire Reel",
+      "description": "Promotion",
+      "receivedDate": "2026-04-24",
+      "deadline": "2026-04-24",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:05:46.564Z"
+    },
+    {
+      "id": 18,
+      "clientId": 2,
+      "title": "Goofy Challenge 3",
+      "description": "Fast Based Editing",
+      "receivedDate": "2026-04-23",
+      "deadline": "2026-04-23",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:04:56.804Z"
+    },
+    {
+      "id": 17,
+      "clientId": 2,
+      "title": "Madurai plate",
+      "description": "Promotion Edit",
+      "receivedDate": "2026-04-10",
+      "deadline": "2026-05-22",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T12:03:40.973Z"
+    },
+    {
       "id": 16,
       "clientId": 2,
       "title": "real story",
@@ -75,17 +119,6 @@
       "charge": 150,
       "status": "completed",
       "createdAt": "2026-05-07T11:09:08.316Z"
-    },
-    {
-      "id": 10,
-      "clientId": 2,
-      "title": "Madurai plate",
-      "description": "Promotion",
-      "receivedDate": "2026-04-22",
-      "deadline": "2026-04-22",
-      "charge": 150,
-      "status": "completed",
-      "createdAt": "2026-05-07T11:08:11.708Z"
     },
     {
       "id": 9,
@@ -317,8 +350,40 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-05-07T11:48:13.721Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Madurai plate",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T12:03:40.973Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Goofy Challenge 3",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T12:04:56.804Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Free Fire Reel",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T12:05:46.564Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Blind Ranking 2",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T12:07:37.692Z"
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 17
+  "nextProjectId": 21
 }
