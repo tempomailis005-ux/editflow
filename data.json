@@ -11,37 +11,48 @@
   ],
   "projects": [
     {
-      "id": 2,
+      "id": 9,
       "clientId": 2,
-      "title": "Rs pet Shop",
-      "description": "Promotion",
-      "receivedDate": "2026-04-03",
-      "deadline": "2026-04-03",
+      "title": "montage",
+      "description": "Feel good edit",
+      "receivedDate": "2026-04-09",
+      "deadline": "2026-04-09",
       "charge": 150,
       "status": "completed",
-      "createdAt": "2026-05-07T10:27:47.631Z"
+      "createdAt": "2026-05-07T11:06:05.588Z"
     },
     {
-      "id": 3,
+      "id": 8,
       "clientId": 2,
-      "title": "Gif shop",
-      "description": "Promotion",
-      "receivedDate": "2026-04-04",
-      "deadline": "2026-04-04",
+      "title": "Madurai plate",
+      "description": "Promotiob",
+      "receivedDate": "2026-04-10",
+      "deadline": "2026-04-10",
       "charge": 150,
       "status": "completed",
-      "createdAt": "2026-05-07T10:28:26.127Z"
+      "createdAt": "2026-05-07T11:05:32.717Z"
     },
     {
-      "id": 4,
+      "id": 7,
       "clientId": 2,
-      "title": "Real Comedy story",
-      "description": "Orginal Content",
-      "receivedDate": "2026-04-05",
-      "deadline": "2026-04-05",
+      "title": "Goofy Challenge",
+      "description": "Fast Based Meme Editing",
+      "receivedDate": "2026-04-08",
+      "deadline": "2026-04-08",
       "charge": 150,
       "status": "completed",
-      "createdAt": "2026-05-07T10:29:11.975Z"
+      "createdAt": "2026-05-07T11:03:47.349Z"
+    },
+    {
+      "id": 6,
+      "clientId": 2,
+      "title": "food donation",
+      "description": "Feel good content",
+      "receivedDate": "2026-04-07",
+      "deadline": "2026-04-07",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T10:31:54.318Z"
     },
     {
       "id": 5,
@@ -55,15 +66,37 @@
       "createdAt": "2026-05-07T10:30:02.095Z"
     },
     {
-      "id": 6,
+      "id": 4,
       "clientId": 2,
-      "title": "food donation",
-      "description": "Feel good content",
-      "receivedDate": "2026-04-07",
-      "deadline": "2026-04-07",
+      "title": "Real Comedy story",
+      "description": "Orginal Content",
+      "receivedDate": "2026-04-05",
+      "deadline": "2026-04-05",
       "charge": 150,
       "status": "completed",
-      "createdAt": "2026-05-07T10:31:54.318Z"
+      "createdAt": "2026-05-07T10:29:11.975Z"
+    },
+    {
+      "id": 3,
+      "clientId": 2,
+      "title": "Gif shop",
+      "description": "Promotion",
+      "receivedDate": "2026-04-04",
+      "deadline": "2026-04-04",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T10:28:26.127Z"
+    },
+    {
+      "id": 2,
+      "clientId": 2,
+      "title": "Rs pet Shop",
+      "description": "Promotion",
+      "receivedDate": "2026-04-03",
+      "deadline": "2026-04-03",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T10:27:47.631Z"
     }
   ],
   "history": [
@@ -138,8 +171,32 @@
       "clientId": 2,
       "amount": 150,
       "date": "2026-05-07T10:31:54.318Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Goofy Challenge",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T11:03:47.349Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Madurai plate",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T11:05:32.717Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: montage",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T11:06:05.588Z"
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 7
+  "nextProjectId": 10
 }
