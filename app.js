@@ -445,7 +445,7 @@ document.getElementById('btn-export-data').addEventListener('click', async () =>
     btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Export';
 });
 
-// ===== Init: load remote data for clients, auto-login =====
+// ===== Init: always fetch fresh data =====
 async function initApp() {
     const savedSession = localStorage.getItem('editflow_session');
     let session = null;
@@ -453,29 +453,13 @@ async function initApp() {
         try { session = JSON.parse(savedSession); } catch(e) {}
     }
 
-    // If client mode, load remote data.json instead of localStorage
-    if (session && session.role === 'client') {
-        const remote = await loadRemoteData();
-        if (remote) {
-            data = remote;
-            // Don't save remote data to localStorage
-        }
-    }
-
-    // If admin, always use localStorage (local working copy)
-    // If no session, still try remote data so login can validate client codes
-    if (!session || session.role !== 'client') {
-        const localData = loadData();
-        if (localData.clients.length > 0) {
-            data = localData;
-        } else {
-            // No local data — try remote (fresh admin on hosted site)
-            const remote = await loadRemoteData();
-            if (remote) {
-                data = remote;
-                saveData(data);
-            }
-        }
+    // Always try to fetch data.json first (works on hosted site)
+    const remote = await loadRemoteData();
+    if (remote) {
+        data = remote;
+    } else {
+        // No remote data available — use localStorage (local dev)
+        data = loadData();
     }
 
     populateClientSelect();

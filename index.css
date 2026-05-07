@@ -485,11 +485,65 @@ body {
     .sidebar { transform: translateX(-100%); }
     .sidebar.open { transform: translateX(0); }
     .mobile-header { display: flex; }
-    .main-content { margin-left: 0; padding: 72px 16px 24px; }
-    .stats-grid { grid-template-columns: repeat(2, 1fr); }
-    .project-row { grid-template-columns: 3px 1fr auto; }
-    .project-dates, .project-actions-col { display: none; }
+    .main-content { margin-left: 0; padding: 72px 12px 24px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .stat-card { padding: 14px; }
+    .stat-card-value { font-size: 1.2rem; }
+    .stat-card-icon { width: 40px; height: 40px; }
+
+    .view-title { font-size: 1.4rem; }
+    .view-header { margin-bottom: 20px; }
+
+    /* Project rows: stack layout */
+    .project-row {
+        grid-template-columns: 3px 1fr;
+        gap: 8px;
+    }
+    .project-actions-col { display: none; }
+    .project-dates { text-align: left; }
+    .project-charge-col { font-size: 0.85rem; }
+
+    /* Kanban cards */
+    .kanban-column { padding: 12px; min-height: 200px; }
+    .kanban-card { padding: 12px; }
+    .kanban-card-title { font-size: 0.82rem; }
+
+    /* Clients */
     .clients-grid { grid-template-columns: 1fr; }
+    .client-card { padding: 18px; }
+
+    /* Filter tabs */
+    .filter-tabs { gap: 6px; }
+    .filter-tab { padding: 6px 14px; font-size: 0.78rem; }
+
+    /* Login */
+    .login-card { padding: 28px 20px; }
+    .login-title { font-size: 1.4rem; }
+
+    /* History */
+    .history-item { padding: 12px 14px; gap: 10px; flex-wrap: wrap; }
+    .history-date { width: 100%; text-align: right; margin-top: -4px; }
+}
+
+@media (max-width: 480px) {
+    .stats-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .stat-card { flex-direction: column; align-items: flex-start; gap: 8px; padding: 12px; }
+    .stat-card-label { font-size: 0.68rem; }
+    .stat-card-value { font-size: 1.1rem; }
+
+    .kanban-board { gap: 12px; }
+
+    .view-actions .btn { padding: 8px 14px; font-size: 0.78rem; }
+
+    .project-row {
+        grid-template-columns: 1fr;
+        padding: 14px;
+        gap: 6px;
+    }
+    .project-status-dot { display: none; }
+    .project-info-title { white-space: normal; }
+    .project-dates { display: inline-block; margin-right: 12px; }
+    .project-charge-col { display: inline-block; }
 }
 
 /* ===== Login Screen ===== */
