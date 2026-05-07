@@ -11,6 +11,61 @@
   ],
   "projects": [
     {
+      "id": 16,
+      "clientId": 2,
+      "title": "real story",
+      "description": "Feel good Edit",
+      "receivedDate": "2026-04-20",
+      "deadline": "2026-04-20",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T11:48:13.721Z"
+    },
+    {
+      "id": 15,
+      "clientId": 2,
+      "title": "blind ranking Challenge",
+      "description": "Game Edit",
+      "receivedDate": "2026-04-19",
+      "deadline": "2026-04-19",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T11:45:57.330Z"
+    },
+    {
+      "id": 14,
+      "clientId": 2,
+      "title": "100k Celebrating Reel",
+      "description": "Feel Good Edit",
+      "receivedDate": "2026-04-18",
+      "deadline": "2026-04-18",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T11:44:46.402Z"
+    },
+    {
+      "id": 13,
+      "clientId": 2,
+      "title": "Liked reel comedy story",
+      "description": "Fast Based Meme editing",
+      "receivedDate": "2026-04-16",
+      "deadline": "2026-04-16",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-07T11:43:55.930Z"
+    },
+    {
+      "id": 12,
+      "clientId": 2,
+      "title": "Goofy Challenge 2",
+      "description": "Fast Based Meme editing",
+      "receivedDate": "2026-05-15",
+      "deadline": "2026-05-15",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-05-07T11:41:22.499Z"
+    },
+    {
       "id": 11,
       "clientId": 2,
       "title": "8 Ball Bet match",
@@ -222,8 +277,48 @@
       "clientId": 2,
       "amount": 150,
       "date": "2026-05-07T11:09:08.316Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Goofy Challenge 2",
+      "client": "David",
+      "clientId": 2,
+      "amount": 150,
+      "date": "2026-05-07T11:41:22.499Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Liked reel comedy story",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T11:43:55.930Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: 100k Celebrating Reel",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T11:44:46.402Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: blind ranking Challenge",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T11:45:57.330Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: real story",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-07T11:48:13.721Z"
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 12
+  "nextProjectId": 17
 }
