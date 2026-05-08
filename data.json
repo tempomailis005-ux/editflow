@@ -50,8 +50,8 @@
       "description": "Game edit",
       "receivedDate": "2026-05-08",
       "deadline": "2026-05-08",
-      "charge": 0,
-      "status": "inprogress",
+      "charge": 200,
+      "status": "completed",
       "createdAt": "2026-05-07T12:20:28.568Z"
     },
     {
@@ -540,6 +540,14 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-05-07T12:19:52.264Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: influncer blind ranking video",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-08T09:16:50.882Z"
     }
   ],
   "nextClientId": 3,
