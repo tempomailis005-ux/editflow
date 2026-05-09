@@ -36,11 +36,11 @@
       "id": 29,
       "clientId": 2,
       "title": "Q & A pt 1",
-      "description": "",
-      "receivedDate": "2026-05-10",
+      "description": "Fast Based Meme Editing",
+      "receivedDate": "2026-05-09",
       "deadline": "2026-05-10",
-      "charge": 0,
-      "status": "inprogress",
+      "charge": 200,
+      "status": "completed",
       "createdAt": "2026-05-07T13:21:52.760Z"
     },
     {
@@ -548,6 +548,14 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-05-08T09:16:50.882Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Q & A pt 1",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-09T08:40:12.671Z"
     }
   ],
   "nextClientId": 3,
