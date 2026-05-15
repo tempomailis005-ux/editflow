@@ -48,10 +48,10 @@
       "clientId": 2,
       "title": "Life Journey",
       "description": "",
-      "receivedDate": "2026-05-11",
-      "deadline": "2026-05-11",
-      "charge": 0,
-      "status": "inprogress",
+      "receivedDate": "2026-05-15",
+      "deadline": "2026-05-15",
+      "charge": 200,
+      "status": "completed",
       "createdAt": "2026-05-07T13:36:31.476Z"
     },
     {
@@ -586,6 +586,14 @@
       "clientId": 2,
       "amount": 1550,
       "date": "2026-05-09T12:31:21.878Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Life Journey",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-15T10:05:22.042Z"
     }
   ],
   "nextClientId": 3,
