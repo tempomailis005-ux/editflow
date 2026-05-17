@@ -44,6 +44,17 @@
       "createdAt": "2026-05-13T06:56:20.370Z"
     },
     {
+      "id": 33,
+      "clientId": 2,
+      "title": "Ogun Blind Ranking",
+      "description": "Challenge Video Edit",
+      "receivedDate": "2026-05-17",
+      "deadline": "2026-05-17",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-17T12:10:27.773Z"
+    },
+    {
       "id": 30,
       "clientId": 2,
       "title": "Life Journey",
@@ -594,8 +605,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-05-15T10:05:22.042Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Ogun Blind Ranking",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-17T12:10:27.773Z"
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 33
+  "nextProjectId": 34
 }
