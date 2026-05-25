@@ -33,6 +33,17 @@
       "createdAt": "2026-05-13T06:55:54.666Z"
     },
     {
+      "id": 35,
+      "clientId": 2,
+      "title": "Blind Ranking pt 6",
+      "description": "Game Edit",
+      "receivedDate": "2026-05-25",
+      "deadline": "2026-05-25",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-05-25T12:00:49.619Z"
+    },
+    {
       "id": 34,
       "clientId": 2,
       "title": "Fun Content",
@@ -640,8 +651,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-05-22T08:15:02.399Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Blind Ranking pt 6",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-05-25T12:00:49.619Z"
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 35
+  "nextProjectId": 36
 }
