@@ -4,7 +4,7 @@
       "id": 2,
       "name": "David",
       "email": "",
-      "advance": 7300,
+      "advance": 8300,
       "color": "#E84393",
       "accessCode": "Davidinsta*"
     }
@@ -659,6 +659,14 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-05-25T12:00:49.619Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "David",
+      "clientId": 2,
+      "amount": 1000,
+      "date": "2026-05-26T13:27:52.489Z"
     }
   ],
   "nextClientId": 3,
