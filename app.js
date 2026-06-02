@@ -4,7 +4,8 @@ const ADMIN_CODE = 'QBD16*';
 
 // ===== State =====
 let data = loadData();
-let currentUser = null; // { role: 'admin' } or { role: 'client', clientId: number }
+let currentUser = null;
+let dataReady = false;
 
 function loadData() {
     const raw = localStorage.getItem(DB_KEY);
@@ -56,10 +57,15 @@ function getVisibleProjects() {
 }
 
 // ===== Auth =====
-document.getElementById('login-form').addEventListener('submit', e => {
+document.getElementById('login-form').addEventListener('submit', async e => {
     e.preventDefault();
     const code = document.getElementById('access-code').value.trim();
     const err = document.getElementById('login-error');
+    // Wait for data to load if not ready yet
+    if (!dataReady) {
+        err.textContent = 'Loading data, please wait...';
+        return;
+    }
     if (code === ADMIN_CODE) {
         currentUser = { role: 'admin' };
         enterApp();
@@ -463,6 +469,7 @@ async function initApp() {
     }
 
     populateClientSelect();
+    dataReady = true;
 
     if (session) {
         currentUser = session;
