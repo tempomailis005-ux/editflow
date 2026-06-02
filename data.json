@@ -7,6 +7,14 @@
       "advance": 8300,
       "color": "#E84393",
       "accessCode": "Davidinsta*"
+    },
+    {
+      "id": 3,
+      "name": "Dandanaka Gaming",
+      "email": "",
+      "advance": 1000,
+      "color": "#6C5CE7",
+      "accessCode": "dandan"
     }
   ],
   "projects": [
@@ -683,8 +691,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-06-02T09:50:18.008Z"
+    },
+    {
+      "type": "credit",
+      "title": "Advance payment received",
+      "client": "Dandanaka Gaming",
+      "clientId": 3,
+      "amount": 1000,
+      "date": "2026-06-02T11:47:28.640Z"
     }
   ],
-  "nextClientId": 3,
+  "nextClientId": 4,
   "nextProjectId": 37
 }
