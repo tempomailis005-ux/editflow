@@ -11,15 +11,15 @@
   ],
   "projects": [
     {
-      "id": 28,
+      "id": 36,
       "clientId": 2,
-      "title": "fruit blind ranking video",
-      "description": "Game Edit",
-      "receivedDate": "2026-05-09",
-      "deadline": "2026-05-09",
-      "charge": 0,
-      "status": "upcoming",
-      "createdAt": "2026-05-07T12:21:03.144Z"
+      "title": "EMOTIONAL CONTENT",
+      "description": "Feeling Good Edit",
+      "receivedDate": "2026-06-01",
+      "deadline": "2026-06-01",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-06-02T09:50:18.008Z"
     },
     {
       "id": 35,
@@ -675,8 +675,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-05-27T06:19:34.517Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: EMOTIONAL CONTENT",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-06-02T09:50:18.008Z"
     }
   ],
   "nextClientId": 3,
-  "nextProjectId": 36
+  "nextProjectId": 37
 }
