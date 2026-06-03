@@ -12,12 +12,23 @@
       "id": 3,
       "name": "Dandanaka Gaming",
       "email": "",
-      "advance": 1000,
+      "advance": 0,
       "color": "#6C5CE7",
       "accessCode": "dandan*"
     }
   ],
   "projects": [
+    {
+      "id": 37,
+      "clientId": 2,
+      "title": "Chess Kathukka poren",
+      "description": "Fast Based & Meme EDiting",
+      "receivedDate": "2026-06-03",
+      "deadline": "2026-06-03",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-06-03T07:22:52.269Z"
+    },
     {
       "id": 36,
       "clientId": 2,
@@ -699,8 +710,24 @@
       "clientId": 3,
       "amount": 1000,
       "date": "2026-06-02T11:47:28.640Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Chess Kathukka poren",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-06-03T07:22:52.269Z"
+    },
+    {
+      "type": "credit",
+      "title": "Advance updated (decreased)",
+      "client": "Dandanaka Gaming",
+      "clientId": 3,
+      "amount": 1000,
+      "date": "2026-06-03T07:23:26.404Z"
     }
   ],
   "nextClientId": 4,
-  "nextProjectId": 37
+  "nextProjectId": 38
 }
