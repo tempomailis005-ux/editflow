@@ -19,6 +19,17 @@
   ],
   "projects": [
     {
+      "id": 38,
+      "clientId": 2,
+      "title": "actor body blind ranking",
+      "description": "game editing",
+      "receivedDate": "2026-06-08",
+      "deadline": "2026-06-08",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-06-08T12:37:27.906Z"
+    },
+    {
       "id": 37,
       "clientId": 2,
       "title": "Chess Kathukka poren",
@@ -726,8 +737,16 @@
       "clientId": 3,
       "amount": 1000,
       "date": "2026-06-03T07:23:26.404Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: actor body blind ranking",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-06-08T12:37:27.906Z"
     }
   ],
   "nextClientId": 4,
-  "nextProjectId": 38
+  "nextProjectId": 39
 }
