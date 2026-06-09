@@ -19,6 +19,17 @@
   ],
   "projects": [
     {
+      "id": 39,
+      "clientId": 2,
+      "title": "Yaar antha bro",
+      "description": "Feel good Edit",
+      "receivedDate": "2026-06-09",
+      "deadline": "2026-06-09",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-06-09T10:07:36.670Z"
+    },
+    {
       "id": 38,
       "clientId": 2,
       "title": "actor body blind ranking",
@@ -745,8 +756,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-06-08T12:37:27.906Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Yaar antha bro",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-06-09T10:07:36.670Z"
     }
   ],
   "nextClientId": 4,
-  "nextProjectId": 39
+  "nextProjectId": 40
 }
