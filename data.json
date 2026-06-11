@@ -19,6 +19,17 @@
   ],
   "projects": [
     {
+      "id": 40,
+      "clientId": 2,
+      "title": "scam content",
+      "description": "fast based meme editing",
+      "receivedDate": "2026-06-11",
+      "deadline": "2026-06-11",
+      "charge": 200,
+      "status": "inprogress",
+      "createdAt": "2026-06-11T07:27:00.440Z"
+    },
+    {
       "id": 39,
       "clientId": 2,
       "title": "Yaar antha bro",
@@ -775,5 +786,5 @@
     }
   ],
   "nextClientId": 4,
-  "nextProjectId": 40
+  "nextProjectId": 41
 }
