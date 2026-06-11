@@ -19,17 +19,6 @@
   ],
   "projects": [
     {
-      "id": 40,
-      "clientId": 2,
-      "title": "scam content",
-      "description": "fast based meme editing",
-      "receivedDate": "2026-06-11",
-      "deadline": "2026-06-11",
-      "charge": 200,
-      "status": "inprogress",
-      "createdAt": "2026-06-11T07:27:00.440Z"
-    },
-    {
       "id": 41,
       "clientId": 2,
       "title": "blind ranking idea",
@@ -39,6 +28,17 @@
       "charge": 200,
       "status": "completed",
       "createdAt": "2026-06-11T08:31:34.420Z"
+    },
+    {
+      "id": 40,
+      "clientId": 2,
+      "title": "scam content",
+      "description": "fast based meme editing",
+      "receivedDate": "2026-06-11",
+      "deadline": "2026-06-11",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-06-11T07:27:00.440Z"
     },
     {
       "id": 39,
@@ -802,6 +802,14 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-06-11T08:31:34.420Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: scam content",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-06-11T10:45:59.060Z"
     }
   ],
   "nextClientId": 4,
