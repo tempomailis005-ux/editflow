@@ -30,6 +30,17 @@
       "createdAt": "2026-06-11T07:27:00.440Z"
     },
     {
+      "id": 41,
+      "clientId": 2,
+      "title": "blind ranking idea",
+      "description": "paru and danny",
+      "receivedDate": "2026-06-11",
+      "deadline": "2026-06-11",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-06-11T08:31:34.420Z"
+    },
+    {
       "id": 39,
       "clientId": 2,
       "title": "Yaar antha bro",
@@ -783,8 +794,16 @@
       "clientId": 2,
       "amount": 1500,
       "date": "2026-06-11T07:15:48.408Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: blind ranking idea",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-06-11T08:31:34.420Z"
     }
   ],
   "nextClientId": 4,
-  "nextProjectId": 41
+  "nextProjectId": 42
 }
