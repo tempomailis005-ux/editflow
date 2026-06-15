@@ -19,6 +19,17 @@
   ],
   "projects": [
     {
+      "id": 42,
+      "clientId": 2,
+      "title": "blind ranking with danny",
+      "description": "advanced game editing",
+      "receivedDate": "2026-06-15",
+      "deadline": "2026-06-15",
+      "charge": 400,
+      "status": "completed",
+      "createdAt": "2026-06-15T11:16:27.028Z"
+    },
+    {
       "id": 41,
       "clientId": 2,
       "title": "blind ranking idea",
@@ -810,8 +821,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-06-11T10:45:59.060Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: blind ranking with danny",
+      "client": "David",
+      "clientId": 2,
+      "amount": 400,
+      "date": "2026-06-15T11:16:27.028Z"
     }
   ],
   "nextClientId": 4,
-  "nextProjectId": 42
+  "nextProjectId": 43
 }
