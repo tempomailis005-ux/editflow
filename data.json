@@ -4,7 +4,7 @@
       "id": 2,
       "name": "David",
       "email": "",
-      "advance": 9800,
+      "advance": 10800,
       "color": "#E84393",
       "accessCode": "Davidinsta*"
     },
@@ -18,6 +18,17 @@
     }
   ],
   "projects": [
+    {
+      "id": 43,
+      "clientId": 2,
+      "title": "Q & A pt 3",
+      "description": "Fast Based meme editing",
+      "receivedDate": "2026-06-20",
+      "deadline": "2026-06-21",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-06-20T15:01:04.209Z"
+    },
     {
       "id": 42,
       "clientId": 2,
@@ -829,8 +840,24 @@
       "clientId": 2,
       "amount": 400,
       "date": "2026-06-15T11:16:27.028Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "David",
+      "clientId": 2,
+      "amount": 1000,
+      "date": "2026-06-20T15:00:28.289Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Q & A pt 3",
+      "client": "David",
+      "clientId": 2,
+      "amount": 300,
+      "date": "2026-06-20T15:01:04.209Z"
     }
   ],
   "nextClientId": 4,
-  "nextProjectId": 43
+  "nextProjectId": 44
 }
