@@ -20,12 +20,23 @@
       "id": 4,
       "name": "Naveen bro",
       "email": "",
-      "advance": 1000,
+      "advance": 1150,
       "color": "#E17055",
       "accessCode": "naveeninsta*"
     }
   ],
   "projects": [
+    {
+      "id": 44,
+      "clientId": 4,
+      "title": "Skin Care Tips",
+      "description": "Informative Editing",
+      "receivedDate": "2026-06-21",
+      "deadline": "2026-06-21",
+      "charge": 150,
+      "status": "completed",
+      "createdAt": "2026-06-21T07:55:40.826Z"
+    },
     {
       "id": 43,
       "clientId": 2,
@@ -872,8 +883,24 @@
       "clientId": 4,
       "amount": 1000,
       "date": "2026-06-21T07:53:15.362Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Skin Care Tips",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 150,
+      "date": "2026-06-21T07:55:40.826Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 150,
+      "date": "2026-06-21T07:55:54.330Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 44
+  "nextProjectId": 45
 }
