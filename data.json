@@ -20,7 +20,7 @@
       "id": 4,
       "name": "Naveen bro",
       "email": "",
-      "advance": 1150,
+      "advance": 1000,
       "color": "#E17055",
       "accessCode": "naveeninsta*"
     }
@@ -899,6 +899,14 @@
       "clientId": 4,
       "amount": 150,
       "date": "2026-06-21T07:55:54.330Z"
+    },
+    {
+      "type": "credit",
+      "title": "Advance updated (decreased)",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 150,
+      "date": "2026-06-21T12:32:09.224Z"
     }
   ],
   "nextClientId": 5,
