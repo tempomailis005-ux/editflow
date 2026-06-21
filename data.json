@@ -15,6 +15,14 @@
       "advance": 0,
       "color": "#6C5CE7",
       "accessCode": "dandan*"
+    },
+    {
+      "id": 4,
+      "name": "Naveen bro",
+      "email": "",
+      "advance": 1000,
+      "color": "#E17055",
+      "accessCode": "naveeninsta*"
     }
   ],
   "projects": [
@@ -856,8 +864,16 @@
       "clientId": 2,
       "amount": 300,
       "date": "2026-06-20T15:01:04.209Z"
+    },
+    {
+      "type": "credit",
+      "title": "Advance payment received",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 1000,
+      "date": "2026-06-21T07:53:15.362Z"
     }
   ],
-  "nextClientId": 4,
+  "nextClientId": 5,
   "nextProjectId": 44
 }
