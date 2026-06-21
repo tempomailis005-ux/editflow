@@ -27,6 +27,28 @@
   ],
   "projects": [
     {
+      "id": 46,
+      "clientId": 2,
+      "title": "Fitness Blind Ranking",
+      "description": "Game Editing",
+      "receivedDate": "2026-06-23",
+      "deadline": "2026-06-23",
+      "charge": 0,
+      "status": "upcoming",
+      "createdAt": "2026-06-21T12:34:33.456Z"
+    },
+    {
+      "id": 45,
+      "clientId": 2,
+      "title": "Jackie Chan manthirakatkal video.",
+      "description": "Fast-based meme editing.",
+      "receivedDate": "2026-06-26",
+      "deadline": "2026-06-26",
+      "charge": 0,
+      "status": "upcoming",
+      "createdAt": "2026-06-21T12:33:56.880Z"
+    },
+    {
       "id": 44,
       "clientId": 4,
       "title": "Skin Care Tips",
@@ -910,5 +932,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 45
+  "nextProjectId": 47
 }
