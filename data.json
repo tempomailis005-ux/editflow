@@ -49,6 +49,17 @@
       "createdAt": "2026-06-21T12:33:56.880Z"
     },
     {
+      "id": 47,
+      "clientId": 4,
+      "title": "First Date Tips",
+      "description": "Informative Editing",
+      "receivedDate": "2026-06-22",
+      "deadline": "2026-06-23",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-06-22T16:28:49.768Z"
+    },
+    {
       "id": 44,
       "clientId": 4,
       "title": "Skin Care Tips",
@@ -929,8 +940,16 @@
       "clientId": 4,
       "amount": 150,
       "date": "2026-06-21T12:32:09.224Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: First Date Tips",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-06-22T16:28:49.768Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 47
+  "nextProjectId": 48
 }
