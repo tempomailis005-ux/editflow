@@ -27,17 +27,6 @@
   ],
   "projects": [
     {
-      "id": 46,
-      "clientId": 2,
-      "title": "Fitness Blind Ranking",
-      "description": "Game Editing",
-      "receivedDate": "2026-06-23",
-      "deadline": "2026-06-23",
-      "charge": 0,
-      "status": "upcoming",
-      "createdAt": "2026-06-21T12:34:33.456Z"
-    },
-    {
       "id": 45,
       "clientId": 2,
       "title": "Jackie Chan manthirakatkal video.",
@@ -58,6 +47,17 @@
       "charge": 300,
       "status": "completed",
       "createdAt": "2026-06-22T16:28:49.768Z"
+    },
+    {
+      "id": 46,
+      "clientId": 2,
+      "title": "Fitness Blind Ranking",
+      "description": "Game Editing",
+      "receivedDate": "2026-06-23",
+      "deadline": "2026-06-23",
+      "charge": 500,
+      "status": "completed",
+      "createdAt": "2026-06-21T12:34:33.456Z"
     },
     {
       "id": 44,
@@ -948,6 +948,14 @@
       "clientId": 4,
       "amount": 300,
       "date": "2026-06-22T16:28:49.768Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Fitness Blind Ranking",
+      "client": "David",
+      "clientId": 2,
+      "amount": 500,
+      "date": "2026-06-23T13:32:33.422Z"
     }
   ],
   "nextClientId": 5,
