@@ -38,6 +38,17 @@
       "createdAt": "2026-06-21T12:33:56.880Z"
     },
     {
+      "id": 49,
+      "clientId": 4,
+      "title": "virat tips video",
+      "description": "informative editing",
+      "receivedDate": "2026-06-25",
+      "deadline": "2026-06-26",
+      "charge": 250,
+      "status": "completed",
+      "createdAt": "2026-06-25T15:55:29.574Z"
+    },
+    {
       "id": 48,
       "clientId": 2,
       "title": "bgmi promotion",
@@ -975,8 +986,16 @@
       "clientId": 2,
       "amount": 300,
       "date": "2026-06-25T11:56:23.213Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: virat tips video",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 250,
+      "date": "2026-06-25T15:55:29.574Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 49
+  "nextProjectId": 50
 }
