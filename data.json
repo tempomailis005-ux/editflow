@@ -38,6 +38,17 @@
       "createdAt": "2026-06-21T12:33:56.880Z"
     },
     {
+      "id": 48,
+      "clientId": 2,
+      "title": "bgmi promotion",
+      "description": "promotion editing",
+      "receivedDate": "2026-06-25",
+      "deadline": "2026-06-25",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-06-25T11:56:23.213Z"
+    },
+    {
       "id": 47,
       "clientId": 4,
       "title": "First Date Tips",
@@ -956,8 +967,16 @@
       "clientId": 2,
       "amount": 500,
       "date": "2026-06-23T13:32:33.422Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: bgmi promotion",
+      "client": "David",
+      "clientId": 2,
+      "amount": 300,
+      "date": "2026-06-25T11:56:23.213Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 48
+  "nextProjectId": 49
 }
