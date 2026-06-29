@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 50,
+      "clientId": 2,
+      "title": "Jackie Chan manthirakatkal video pt2.",
+      "description": "Game Editing",
+      "receivedDate": "2026-06-29",
+      "deadline": "2026-06-29",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-06-29T09:07:42.119Z"
+    },
+    {
       "id": 49,
       "clientId": 4,
       "title": "virat tips video",
@@ -75,8 +86,8 @@
       "clientId": 2,
       "title": "Jackie Chan manthirakatkal video.",
       "description": "Fast-based meme editing.",
-      "receivedDate": "2026-06-26",
-      "deadline": "2026-06-26",
+      "receivedDate": "2026-06-28",
+      "deadline": "2026-06-28",
       "charge": 300,
       "status": "completed",
       "createdAt": "2026-06-21T12:33:56.880Z"
@@ -1002,8 +1013,16 @@
       "clientId": 2,
       "amount": 300,
       "date": "2026-06-27T16:25:11.697Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Jackie Chan manthirakatkal video pt2.",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-06-29T09:07:42.119Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 50
+  "nextProjectId": 51
 }
