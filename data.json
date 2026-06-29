@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 51,
+      "clientId": 2,
+      "title": "blind ranking idea",
+      "description": "lifestyle blind ranking",
+      "receivedDate": "2026-06-29",
+      "deadline": "2026-06-29",
+      "charge": 100,
+      "status": "completed",
+      "createdAt": "2026-06-29T10:38:51.847Z"
+    },
+    {
       "id": 50,
       "clientId": 2,
       "title": "Jackie Chan manthirakatkal video pt2.",
@@ -1021,8 +1032,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-06-29T09:07:42.119Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: blind ranking idea",
+      "client": "David",
+      "clientId": 2,
+      "amount": 100,
+      "date": "2026-06-29T10:38:51.847Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 51
+  "nextProjectId": 52
 }
