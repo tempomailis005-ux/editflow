@@ -33,8 +33,8 @@
       "description": "",
       "receivedDate": "2026-06-30",
       "deadline": "2026-06-30",
-      "charge": 0,
-      "status": "inprogress",
+      "charge": 300,
+      "status": "completed",
       "createdAt": "2026-06-30T07:05:21.626Z"
     },
     {
@@ -1051,6 +1051,14 @@
       "clientId": 2,
       "amount": 100,
       "date": "2026-06-29T10:38:51.847Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: dd box",
+      "client": "David",
+      "clientId": 2,
+      "amount": 300,
+      "date": "2026-06-30T16:27:26.137Z"
     }
   ],
   "nextClientId": 5,
