@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 52,
+      "clientId": 2,
+      "title": "dd box",
+      "description": "",
+      "receivedDate": "2026-06-30",
+      "deadline": "2026-06-30",
+      "charge": 0,
+      "status": "inprogress",
+      "createdAt": "2026-06-30T07:05:21.626Z"
+    },
+    {
       "id": 51,
       "clientId": 2,
       "title": "blind ranking idea",
@@ -1043,5 +1054,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 52
+  "nextProjectId": 53
 }
