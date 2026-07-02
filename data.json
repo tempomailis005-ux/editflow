@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 53,
+      "clientId": 4,
+      "title": "6 tips abt women",
+      "description": "informative edtiting",
+      "receivedDate": "2026-07-01",
+      "deadline": "2026-07-01",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-07-02T13:37:18.889Z"
+    },
+    {
       "id": 52,
       "clientId": 2,
       "title": "dd box",
@@ -1067,8 +1078,16 @@
       "clientId": 2,
       "amount": 1000,
       "date": "2026-07-01T16:50:52.287Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: 6 tips abt women",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-07-02T13:37:18.889Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 53
+  "nextProjectId": 54
 }
