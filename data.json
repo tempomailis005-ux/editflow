@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 54,
+      "clientId": 2,
+      "title": "education is like shoe",
+      "description": "normal edit",
+      "receivedDate": "2026-07-03",
+      "deadline": "2026-07-03",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-07-03T08:15:02.084Z"
+    },
+    {
       "id": 53,
       "clientId": 4,
       "title": "6 tips abt women",
@@ -1086,8 +1097,16 @@
       "clientId": 4,
       "amount": 300,
       "date": "2026-07-02T13:37:18.889Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: education is like shoe",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-07-03T08:15:02.084Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 54
+  "nextProjectId": 55
 }
