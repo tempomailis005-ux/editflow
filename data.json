@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 55,
+      "clientId": 2,
+      "title": "Content Script chotta bheem & Ilumunaatti",
+      "description": "2 Scripts",
+      "receivedDate": "2026-07-03",
+      "deadline": "2026-07-03",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-07-03T14:48:00.490Z"
+    },
+    {
       "id": 54,
       "clientId": 2,
       "title": "education is like shoe",
@@ -1105,8 +1116,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-07-03T08:15:02.084Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Content Script chotta bheem & Ilumunaatti",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-07-03T14:48:00.490Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 55
+  "nextProjectId": 56
 }
