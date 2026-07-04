@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 56,
+      "clientId": 2,
+      "title": "5 problems",
+      "description": "",
+      "receivedDate": "2026-07-04",
+      "deadline": "2026-07-04",
+      "charge": 200,
+      "status": "inprogress",
+      "createdAt": "2026-07-04T09:12:09.532Z"
+    },
+    {
       "id": 55,
       "clientId": 2,
       "title": "Content Script chotta bheem & Ilumunaatti",
@@ -1127,5 +1138,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 56
+  "nextProjectId": 57
 }
