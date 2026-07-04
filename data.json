@@ -34,7 +34,7 @@
       "receivedDate": "2026-07-04",
       "deadline": "2026-07-04",
       "charge": 200,
-      "status": "inprogress",
+      "status": "completed",
       "createdAt": "2026-07-04T09:12:09.532Z"
     },
     {
@@ -1135,6 +1135,14 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-07-03T14:48:00.490Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: 5 problems",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-07-04T14:32:36.025Z"
     }
   ],
   "nextClientId": 5,
