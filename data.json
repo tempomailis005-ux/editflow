@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 57,
+      "clientId": 2,
+      "title": "illuminati enkira kumbal",
+      "description": "Fast Based & Meme Editing",
+      "receivedDate": "2026-07-07",
+      "deadline": "2026-07-07",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-07-07T07:23:01.942Z"
+    },
+    {
       "id": 56,
       "clientId": 2,
       "title": "5 problems",
@@ -1143,8 +1154,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-07-04T14:32:36.025Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: illuminati enkira kumbal",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-07-07T07:23:01.942Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 57
+  "nextProjectId": 58
 }
