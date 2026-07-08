@@ -20,12 +20,23 @@
       "id": 4,
       "name": "Naveen bro",
       "email": "",
-      "advance": 1000,
+      "advance": 2000,
       "color": "#E17055",
       "accessCode": "naveeninsta*"
     }
   ],
   "projects": [
+    {
+      "id": 58,
+      "clientId": 2,
+      "title": "nagetive content idea",
+      "description": "content idea",
+      "receivedDate": "2026-07-08",
+      "deadline": "2026-07-08",
+      "charge": 100,
+      "status": "completed",
+      "createdAt": "2026-07-08T13:42:37.605Z"
+    },
     {
       "id": 57,
       "clientId": 2,
@@ -1162,8 +1173,24 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-07-07T07:23:01.942Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: nagetive content idea",
+      "client": "David",
+      "clientId": 2,
+      "amount": 100,
+      "date": "2026-07-08T13:42:37.605Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 1000,
+      "date": "2026-07-08T13:42:45.244Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 58
+  "nextProjectId": 59
 }
