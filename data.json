@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 61,
+      "clientId": 2,
+      "title": "wwe content",
+      "description": "tracking and fast based meme editing",
+      "receivedDate": "2026-07-10",
+      "deadline": "2026-07-10",
+      "charge": 400,
+      "status": "completed",
+      "createdAt": "2026-07-10T11:50:23.344Z"
+    },
+    {
       "id": 60,
       "clientId": 2,
       "title": "ilumnati cmnt idea content",
@@ -1227,8 +1238,16 @@
       "clientId": 2,
       "amount": 100,
       "date": "2026-07-10T05:37:23.983Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: wwe content",
+      "client": "David",
+      "clientId": 2,
+      "amount": 400,
+      "date": "2026-07-10T11:50:23.344Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 61
+  "nextProjectId": 62
 }
