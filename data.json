@@ -27,6 +27,28 @@
   ],
   "projects": [
     {
+      "id": 60,
+      "clientId": 2,
+      "title": "ilumnati cmnt idea content",
+      "description": "content idea",
+      "receivedDate": "2026-07-10",
+      "deadline": "2026-07-10",
+      "charge": 100,
+      "status": "completed",
+      "createdAt": "2026-07-10T05:37:23.983Z"
+    },
+    {
+      "id": 59,
+      "clientId": 4,
+      "title": "short man cloth tips",
+      "description": "info editing",
+      "receivedDate": "2026-07-09",
+      "deadline": "2026-07-09",
+      "charge": 250,
+      "status": "completed",
+      "createdAt": "2026-07-10T05:36:33.400Z"
+    },
+    {
       "id": 58,
       "clientId": 2,
       "title": "nagetive content idea",
@@ -1189,8 +1211,24 @@
       "clientId": 4,
       "amount": 1000,
       "date": "2026-07-08T13:42:45.244Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: short man cloth tips",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 250,
+      "date": "2026-07-10T05:36:33.400Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: ilumnati cmnt idea content",
+      "client": "David",
+      "clientId": 2,
+      "amount": 100,
+      "date": "2026-07-10T05:37:23.983Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 59
+  "nextProjectId": 61
 }
