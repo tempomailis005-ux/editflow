@@ -27,6 +27,28 @@
   ],
   "projects": [
     {
+      "id": 63,
+      "clientId": 2,
+      "title": "jacob sir content idea",
+      "description": "",
+      "receivedDate": "2026-07-14",
+      "deadline": "2026-07-14",
+      "charge": 100,
+      "status": "completed",
+      "createdAt": "2026-07-15T10:36:15.774Z"
+    },
+    {
+      "id": 62,
+      "clientId": 2,
+      "title": "bheem donation",
+      "description": "normal editing",
+      "receivedDate": "2026-07-15",
+      "deadline": "2026-07-15",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-07-15T10:35:46.654Z"
+    },
+    {
       "id": 61,
       "clientId": 2,
       "title": "wwe content",
@@ -1254,8 +1276,24 @@
       "clientId": 2,
       "amount": 1500,
       "date": "2026-07-13T15:24:51.298Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: bheem donation",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-07-15T10:35:46.654Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: jacob sir content idea",
+      "client": "David",
+      "clientId": 2,
+      "amount": 100,
+      "date": "2026-07-15T10:36:15.774Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 62
+  "nextProjectId": 64
 }
