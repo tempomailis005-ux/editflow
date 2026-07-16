@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 64,
+      "clientId": 4,
+      "title": "Gold Video",
+      "description": "info editing",
+      "receivedDate": "2026-07-16",
+      "deadline": "2026-07-16",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-07-16T09:54:14.385Z"
+    },
+    {
       "id": 63,
       "clientId": 2,
       "title": "jacob sir content idea",
@@ -1292,8 +1303,16 @@
       "clientId": 2,
       "amount": 100,
       "date": "2026-07-15T10:36:15.774Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Gold Video",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-07-16T09:54:14.385Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 64
+  "nextProjectId": 65
 }
