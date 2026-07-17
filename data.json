@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 65,
+      "clientId": 2,
+      "title": "someone said",
+      "description": "",
+      "receivedDate": "2026-07-17",
+      "deadline": "2026-07-17",
+      "charge": 0,
+      "status": "inprogress",
+      "createdAt": "2026-07-17T07:22:36.200Z"
+    },
+    {
       "id": 64,
       "clientId": 4,
       "title": "Gold Video",
@@ -1314,5 +1325,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 65
+  "nextProjectId": 66
 }
