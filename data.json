@@ -27,14 +27,25 @@
   ],
   "projects": [
     {
+      "id": 66,
+      "clientId": 2,
+      "title": "Saaganuma?",
+      "description": "emotional content",
+      "receivedDate": "2026-07-20",
+      "deadline": "2026-07-20",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-07-20T10:19:42.807Z"
+    },
+    {
       "id": 65,
       "clientId": 2,
       "title": "someone said",
       "description": "",
       "receivedDate": "2026-07-17",
       "deadline": "2026-07-17",
-      "charge": 0,
-      "status": "inprogress",
+      "charge": 200,
+      "status": "completed",
       "createdAt": "2026-07-17T07:22:36.200Z"
     },
     {
@@ -1322,8 +1333,24 @@
       "clientId": 4,
       "amount": 300,
       "date": "2026-07-16T09:54:14.385Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: someone said",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-07-20T10:18:52.934Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Saaganuma?",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-07-20T10:19:42.807Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 66
+  "nextProjectId": 67
 }
