@@ -27,6 +27,17 @@
   ],
   "projects": [
     {
+      "id": 67,
+      "clientId": 2,
+      "title": "ilumaniti cmnt",
+      "description": "",
+      "receivedDate": "2026-07-22",
+      "deadline": "2026-07-22",
+      "charge": 0,
+      "status": "inprogress",
+      "createdAt": "2026-07-22T08:44:22.215Z"
+    },
+    {
       "id": 66,
       "clientId": 2,
       "title": "Saaganuma?",
@@ -1352,5 +1363,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 67
+  "nextProjectId": 68
 }
