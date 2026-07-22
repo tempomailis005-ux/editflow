@@ -38,6 +38,17 @@
       "createdAt": "2026-07-22T08:44:22.215Z"
     },
     {
+      "id": 68,
+      "clientId": 2,
+      "title": "neet content idea",
+      "description": "neet content idea",
+      "receivedDate": "2026-07-22",
+      "deadline": "2026-07-22",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-07-22T15:07:17.473Z"
+    },
+    {
       "id": 66,
       "clientId": 2,
       "title": "Saaganuma?",
@@ -1360,8 +1371,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-07-20T10:19:42.807Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: neet content idea",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-07-22T15:07:17.473Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 68
+  "nextProjectId": 69
 }
