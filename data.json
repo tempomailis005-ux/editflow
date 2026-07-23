@@ -38,6 +38,17 @@
       "createdAt": "2026-07-22T08:44:22.215Z"
     },
     {
+      "id": 69,
+      "clientId": 4,
+      "title": "Gold Era",
+      "description": "info Editing",
+      "receivedDate": "2026-07-23",
+      "deadline": "2026-07-23",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-07-23T16:33:13.661Z"
+    },
+    {
       "id": 68,
       "clientId": 2,
       "title": "neet content idea",
@@ -1379,8 +1390,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-07-22T15:07:17.473Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Gold Era",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-07-23T16:33:13.661Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 69
+  "nextProjectId": 70
 }
