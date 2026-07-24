@@ -20,7 +20,7 @@
       "id": 4,
       "name": "Naveen bro",
       "email": "",
-      "advance": 2000,
+      "advance": 3000,
       "color": "#E17055",
       "accessCode": "naveeninsta*"
     }
@@ -36,6 +36,17 @@
       "charge": 0,
       "status": "upcoming",
       "createdAt": "2026-07-22T08:44:22.215Z"
+    },
+    {
+      "id": 70,
+      "clientId": 2,
+      "title": "neet video",
+      "description": "",
+      "receivedDate": "2026-07-24",
+      "deadline": "2026-07-24",
+      "charge": 300,
+      "status": "inprogress",
+      "createdAt": "2026-07-24T08:38:27.506Z"
     },
     {
       "id": 69,
@@ -1398,8 +1409,16 @@
       "clientId": 4,
       "amount": 300,
       "date": "2026-07-23T16:33:13.661Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 1000,
+      "date": "2026-07-24T08:37:56.827Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 70
+  "nextProjectId": 71
 }
