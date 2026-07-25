@@ -45,7 +45,7 @@
       "receivedDate": "2026-07-24",
       "deadline": "2026-07-24",
       "charge": 300,
-      "status": "inprogress",
+      "status": "completed",
       "createdAt": "2026-07-24T08:38:27.506Z"
     },
     {
@@ -1417,6 +1417,14 @@
       "clientId": 4,
       "amount": 1000,
       "date": "2026-07-24T08:37:56.827Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: neet video",
+      "client": "David",
+      "clientId": 2,
+      "amount": 300,
+      "date": "2026-07-25T11:28:53.463Z"
     }
   ],
   "nextClientId": 5,
