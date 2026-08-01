@@ -38,6 +38,17 @@
       "createdAt": "2026-07-22T08:44:22.215Z"
     },
     {
+      "id": 72,
+      "clientId": 4,
+      "title": "combo tips",
+      "description": "info editing",
+      "receivedDate": "2026-07-30",
+      "deadline": "2026-07-30",
+      "charge": 250,
+      "status": "completed",
+      "createdAt": "2026-08-01T07:34:49.053Z"
+    },
+    {
       "id": 71,
       "clientId": 4,
       "title": "gold era continue",
@@ -1444,8 +1455,16 @@
       "clientId": 4,
       "amount": 300,
       "date": "2026-07-27T06:20:29.367Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: combo tips",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 250,
+      "date": "2026-08-01T07:34:49.053Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 72
+  "nextProjectId": 73
 }
