@@ -33,9 +33,64 @@
       "description": "",
       "receivedDate": "2026-07-22",
       "deadline": "2026-07-22",
-      "charge": 0,
+      "charge": 200,
       "status": "upcoming",
       "createdAt": "2026-07-22T08:44:22.215Z"
+    },
+    {
+      "id": 74,
+      "clientId": 2,
+      "title": "Guess the movie name wrong answer only",
+      "description": "fast based meme editing",
+      "receivedDate": "2026-08-01",
+      "deadline": "2026-08-01",
+      "charge": 250,
+      "status": "upcoming",
+      "createdAt": "2026-08-01T07:41:45.358Z"
+    },
+    {
+      "id": 76,
+      "clientId": 2,
+      "title": "upcoming",
+      "description": "",
+      "receivedDate": "2026-08-01",
+      "deadline": "2026-08-01",
+      "charge": 0,
+      "status": "upcoming",
+      "createdAt": "2026-08-01T07:43:27.958Z"
+    },
+    {
+      "id": 77,
+      "clientId": 2,
+      "title": "promotion reason",
+      "description": "",
+      "receivedDate": "2026-08-01",
+      "deadline": "2026-08-01",
+      "charge": 0,
+      "status": "upcoming",
+      "createdAt": "2026-08-01T07:43:42.854Z"
+    },
+    {
+      "id": 75,
+      "clientId": 2,
+      "title": "tvk member video",
+      "description": "",
+      "receivedDate": "2026-08-01",
+      "deadline": "2026-08-01",
+      "charge": 200,
+      "status": "inprogress",
+      "createdAt": "2026-08-01T07:42:28.486Z"
+    },
+    {
+      "id": 73,
+      "clientId": 2,
+      "title": "me with dad",
+      "description": "feel good edit",
+      "receivedDate": "2026-07-29",
+      "deadline": "2026-07-29",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-08-01T07:39:04.102Z"
     },
     {
       "id": 72,
@@ -1463,8 +1518,16 @@
       "clientId": 4,
       "amount": 250,
       "date": "2026-08-01T07:34:49.053Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: me with dad",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-08-01T07:39:04.102Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 73
+  "nextProjectId": 78
 }
