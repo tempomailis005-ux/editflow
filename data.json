@@ -74,11 +74,11 @@
       "id": 75,
       "clientId": 2,
       "title": "tvk member video",
-      "description": "",
-      "receivedDate": "2026-08-01",
-      "deadline": "2026-08-01",
+      "description": "feel good edit",
+      "receivedDate": "2026-08-02",
+      "deadline": "2026-08-02",
       "charge": 200,
-      "status": "inprogress",
+      "status": "completed",
       "createdAt": "2026-08-01T07:42:28.486Z"
     },
     {
@@ -1526,6 +1526,14 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-08-01T07:39:04.102Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: tvk member video",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-08-02T09:18:10.233Z"
     }
   ],
   "nextClientId": 5,
