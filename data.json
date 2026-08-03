@@ -60,17 +60,6 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
-      "id": 67,
-      "clientId": 2,
-      "title": "ilumaniti cmnt",
-      "description": "",
-      "receivedDate": "2026-07-22",
-      "deadline": "2026-07-22",
-      "charge": 200,
-      "status": "inprogress",
-      "createdAt": "2026-07-22T08:44:22.215Z"
-    },
-    {
       "id": 75,
       "clientId": 2,
       "title": "tvk member video",
@@ -146,6 +135,17 @@
       "charge": 200,
       "status": "completed",
       "createdAt": "2026-07-22T15:07:17.473Z"
+    },
+    {
+      "id": 67,
+      "clientId": 2,
+      "title": "ilumaniti cmnt pt 1",
+      "description": "fast based meme editing",
+      "receivedDate": "2026-08-03",
+      "deadline": "2026-08-03",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-07-22T08:44:22.215Z"
     },
     {
       "id": 66,
@@ -1534,6 +1534,14 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-08-02T09:18:10.233Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: ilumaniti cmnt pt 1",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-08-03T10:14:00.791Z"
     }
   ],
   "nextClientId": 5,
