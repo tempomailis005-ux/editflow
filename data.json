@@ -27,17 +27,6 @@
   ],
   "projects": [
     {
-      "id": 67,
-      "clientId": 2,
-      "title": "ilumaniti cmnt",
-      "description": "",
-      "receivedDate": "2026-07-22",
-      "deadline": "2026-07-22",
-      "charge": 200,
-      "status": "upcoming",
-      "createdAt": "2026-07-22T08:44:22.215Z"
-    },
-    {
       "id": 74,
       "clientId": 2,
       "title": "Guess the movie name wrong answer only",
@@ -69,6 +58,17 @@
       "charge": 0,
       "status": "upcoming",
       "createdAt": "2026-08-01T07:43:42.854Z"
+    },
+    {
+      "id": 67,
+      "clientId": 2,
+      "title": "ilumaniti cmnt",
+      "description": "",
+      "receivedDate": "2026-07-22",
+      "deadline": "2026-07-22",
+      "charge": 200,
+      "status": "inprogress",
+      "createdAt": "2026-07-22T08:44:22.215Z"
     },
     {
       "id": 75,
