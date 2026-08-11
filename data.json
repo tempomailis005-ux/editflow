@@ -60,6 +60,17 @@
       "createdAt": "2026-08-01T07:41:45.358Z"
     },
     {
+      "id": 78,
+      "clientId": 4,
+      "title": "ALWAYS Gold",
+      "description": "info editing",
+      "receivedDate": "2026-08-11",
+      "deadline": "2026-08-11",
+      "charge": 250,
+      "status": "completed",
+      "createdAt": "2026-08-11T15:31:33.110Z"
+    },
+    {
       "id": 75,
       "clientId": 2,
       "title": "tvk member video",
@@ -1542,8 +1553,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-08-03T10:14:00.791Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: ALWAYS Gold",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 250,
+      "date": "2026-08-11T15:31:33.110Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 78
+  "nextProjectId": 79
 }
