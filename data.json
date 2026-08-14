@@ -60,6 +60,17 @@
       "createdAt": "2026-08-01T07:41:45.358Z"
     },
     {
+      "id": 79,
+      "clientId": 2,
+      "title": "gym doli blind ranking",
+      "description": "",
+      "receivedDate": "2026-08-14",
+      "deadline": "2026-08-14",
+      "charge": 350,
+      "status": "inprogress",
+      "createdAt": "2026-08-14T08:45:32.058Z"
+    },
+    {
       "id": 78,
       "clientId": 4,
       "title": "ALWAYS Gold",
@@ -1572,5 +1583,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 79
+  "nextProjectId": 80
 }
