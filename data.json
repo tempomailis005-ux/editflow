@@ -49,15 +49,15 @@
       "createdAt": "2026-08-01T07:43:27.958Z"
     },
     {
-      "id": 74,
+      "id": 80,
       "clientId": 2,
-      "title": "Guess the movie name wrong answer only",
-      "description": "fast based meme editing",
-      "receivedDate": "2026-08-01",
-      "deadline": "2026-08-01",
-      "charge": 250,
-      "status": "inprogress",
-      "createdAt": "2026-08-01T07:41:45.358Z"
+      "title": "srilanka fan",
+      "description": "normal edit",
+      "receivedDate": "2026-08-17",
+      "deadline": "2026-08-17",
+      "charge": 100,
+      "status": "completed",
+      "createdAt": "2026-08-17T08:16:20.510Z"
     },
     {
       "id": 79,
@@ -91,6 +91,17 @@
       "charge": 200,
       "status": "completed",
       "createdAt": "2026-08-01T07:42:28.486Z"
+    },
+    {
+      "id": 74,
+      "clientId": 2,
+      "title": "Guess the movie name wrong answer only",
+      "description": "fast based meme editing",
+      "receivedDate": "2026-08-01",
+      "deadline": "2026-08-01",
+      "charge": 250,
+      "status": "completed",
+      "createdAt": "2026-08-01T07:41:45.358Z"
     },
     {
       "id": 73,
@@ -1588,8 +1599,24 @@
       "clientId": 2,
       "amount": 350,
       "date": "2026-08-15T09:11:05.922Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: Guess the movie name wrong answer only",
+      "client": "David",
+      "clientId": 2,
+      "amount": 250,
+      "date": "2026-08-17T08:15:43.982Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: srilanka fan",
+      "client": "David",
+      "clientId": 2,
+      "amount": 100,
+      "date": "2026-08-17T08:16:20.510Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 80
+  "nextProjectId": 81
 }
