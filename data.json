@@ -20,7 +20,7 @@
       "id": 4,
       "name": "Naveen bro",
       "email": "",
-      "advance": 4150,
+      "advance": 6150,
       "color": "#E17055",
       "accessCode": "naveeninsta*"
     }
@@ -47,6 +47,28 @@
       "charge": 0,
       "status": "upcoming",
       "createdAt": "2026-08-01T07:43:27.958Z"
+    },
+    {
+      "id": 87,
+      "clientId": 4,
+      "title": "gold cart kgf amma",
+      "description": "info editing",
+      "receivedDate": "2026-09-01",
+      "deadline": "2026-09-01",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-09-02T11:34:29.789Z"
+    },
+    {
+      "id": 86,
+      "clientId": 4,
+      "title": "gold cart digital gold buy",
+      "description": "info editing",
+      "receivedDate": "2026-08-31",
+      "deadline": "2026-08-30",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-09-02T11:33:57.173Z"
     },
     {
       "id": 85,
@@ -1718,8 +1740,32 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-08-29T03:25:44.874Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 2000,
+      "date": "2026-09-02T11:33:00.557Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: gold cart digital gold buy",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-09-02T11:33:57.173Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: gold cart kgf amma",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-09-02T11:34:29.789Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 86
+  "nextProjectId": 88
 }
