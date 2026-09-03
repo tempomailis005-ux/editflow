@@ -49,6 +49,17 @@
       "createdAt": "2026-08-01T07:43:27.958Z"
     },
     {
+      "id": 88,
+      "clientId": 4,
+      "title": "facewash suggestion",
+      "description": "info edit and re editing",
+      "receivedDate": "2026-09-02",
+      "deadline": "2026-09-03",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-09-03T11:54:35.751Z"
+    },
+    {
       "id": 87,
       "clientId": 4,
       "title": "gold cart kgf amma",
@@ -1764,8 +1775,16 @@
       "clientId": 4,
       "amount": 300,
       "date": "2026-09-02T11:34:29.789Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: facewash suggestion",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-09-03T11:54:35.751Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 88
+  "nextProjectId": 89
 }
