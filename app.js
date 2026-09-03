@@ -6,6 +6,7 @@ const ADMIN_CODE = 'QBD16*';
 let data = loadData();
 let currentUser = null;
 let dataReady = false;
+let dashboardClientFilter = 'all'; // 'all' or a client ID number
 
 function loadData() {
     const raw = localStorage.getItem(DB_KEY);
@@ -119,7 +120,31 @@ navButtons.forEach(b=>b.addEventListener('click',()=>switchView(b.dataset.view))
 document.getElementById('menu-toggle').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('open'));
 
 // ===== Render =====
-function renderAll() { renderStats(); renderKanban(); renderClients(); renderProjects(); renderHistory(); renderSidebarStats(); }
+function renderAll() { renderStats(); renderDashboardClientFilters(); renderKanban(); renderClients(); renderProjects(); renderHistory(); renderSidebarStats(); }
+
+function renderDashboardClientFilters() {
+    const container = document.getElementById('dashboard-client-filters');
+    if (!container || !isAdmin() || data.clients.length < 2) { if(container) container.innerHTML=''; return; }
+    const tabs = [`<button class="filter-tab ${dashboardClientFilter==='all'?'active':''}" data-client-filter="all">All Clients</button>`];
+    data.clients.forEach(c => {
+        tabs.push(`<button class="filter-tab ${dashboardClientFilter===c.id?'active':''}" data-client-filter="${c.id}" style="border-color:${c.color};${dashboardClientFilter===c.id?'background:'+c.color+';color:#fff':''}">${esc(c.name)}</button>`);
+    });
+    container.innerHTML = tabs.join('');
+    container.querySelectorAll('.filter-tab').forEach(t => t.addEventListener('click', () => {
+        const val = t.dataset.clientFilter;
+        dashboardClientFilter = val === 'all' ? 'all' : Number(val);
+        renderAll();
+    }));
+}
+
+function getDashboardProjects() {
+    let projects = getVisibleProjects();
+    if (isAdmin() && dashboardClientFilter !== 'all') {
+        projects = projects.filter(p => p.clientId === dashboardClientFilter);
+    }
+    return projects;
+}
+
 
 function renderSidebarStats() {
     document.getElementById('sidebar-active-clients').textContent = data.clients.length;
@@ -127,8 +152,15 @@ function renderSidebarStats() {
 }
 
 function renderStats() {
-    const vp = getVisibleProjects();
-    const bal = isAdmin() ? data.clients.reduce((s,c)=>s+getClientBalance(c.id),0) : (currentUser ? getClientBalance(currentUser.clientId) : 0);
+    const vp = getDashboardProjects();
+    let bal;
+    if (!isAdmin()) {
+        bal = currentUser ? getClientBalance(currentUser.clientId) : 0;
+    } else if (dashboardClientFilter !== 'all') {
+        bal = getClientBalance(dashboardClientFilter);
+    } else {
+        bal = data.clients.reduce((s,c)=>s+getClientBalance(c.id),0);
+    }
     document.getElementById('stat-total-balance').textContent = fmt(bal);
     document.getElementById('stat-upcoming').textContent = vp.filter(p=>p.status==='upcoming').length;
     document.getElementById('stat-inprogress').textContent = vp.filter(p=>p.status==='inprogress').length;
@@ -139,7 +171,7 @@ function renderKanban() {
     ['upcoming','inprogress','completed'].forEach(status => {
         const container = document.getElementById(`kanban-${status}-cards`);
         const countEl = document.getElementById(`kanban-${status}-count`);
-        let projects = getVisibleProjects().filter(p=>p.status===status);
+        let projects = getDashboardProjects().filter(p=>p.status===status);
         if (status === 'completed') {
             projects.sort((a,b) => b.id - a.id);
         } else {
@@ -154,6 +186,7 @@ function renderKanban() {
                 <div class="kanban-card-accent" style="background:${color}"></div>
                 <div class="kanban-card-client" style="color:${color}">${c?c.name:'Unknown'}</div>
                 <div class="kanban-card-title">${esc(p.title)}</div>
+                ${p.description ? `<div class="kanban-card-desc">${esc(p.description)}</div>` : ''}
                 <div class="kanban-card-meta"><span class="kanban-card-date">${fmtDate(p.deadline)}</span><span class="kanban-card-charge">${p.charge ? fmt(p.charge) : 'Pending'}</span></div>
             </div>`;
         }).join('');
@@ -213,7 +246,7 @@ function renderProjects(filter='all') {
         const sc=p.status==='upcoming'?'var(--blue)':p.status==='inprogress'?'var(--orange)':'var(--green)';
         return `<div class="project-row">
             <div class="project-status-dot" style="background:${sc}"></div>
-            <div class="project-info"><div class="project-info-title">${esc(p.title)}</div><div class="project-info-client" style="color:${color}">${c?c.name:'Unknown'} <span class="status-badge ${p.status}">${p.status==='inprogress'?'In Progress':p.status}</span></div></div>
+            <div class="project-info"><div class="project-info-title">${esc(p.title)}</div>${p.description ? `<div class="project-info-desc">${esc(p.description)}</div>` : ''}<div class="project-info-client" style="color:${color}">${c?c.name:'Unknown'} <span class="status-badge ${p.status}">${p.status==='inprogress'?'In Progress':p.status}</span></div></div>
             <div class="project-dates"><div class="project-date-label">Submitted</div><div class="project-date-value">${fmtDate(p.receivedDate)}</div></div>
             <div class="project-dates"><div class="project-date-label">Published</div><div class="project-date-value">${fmtDate(p.deadline)}</div></div>
             <div class="project-charge-col">${p.charge ? fmt(p.charge) : '<span style="color:var(--text-muted)">Pending</span>'}</div>
