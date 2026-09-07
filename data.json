@@ -49,6 +49,17 @@
       "createdAt": "2026-08-01T07:43:27.958Z"
     },
     {
+      "id": 89,
+      "clientId": 4,
+      "title": "ton gold",
+      "description": "informative editing",
+      "receivedDate": "2026-09-07",
+      "deadline": "2026-09-07",
+      "charge": 400,
+      "status": "completed",
+      "createdAt": "2026-09-07T08:50:38.699Z"
+    },
+    {
       "id": 88,
       "clientId": 4,
       "title": "facewash suggestion",
@@ -1783,8 +1794,16 @@
       "clientId": 4,
       "amount": 300,
       "date": "2026-09-03T11:54:35.751Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: ton gold",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 400,
+      "date": "2026-09-07T08:50:38.699Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 89
+  "nextProjectId": 90
 }
