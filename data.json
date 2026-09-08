@@ -49,6 +49,17 @@
       "createdAt": "2026-08-01T07:43:27.958Z"
     },
     {
+      "id": 90,
+      "clientId": 2,
+      "title": "game video",
+      "description": "game clipart editing",
+      "receivedDate": "2026-09-08",
+      "deadline": "2026-09-08",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-09-08T10:26:33.423Z"
+    },
+    {
       "id": 89,
       "clientId": 4,
       "title": "ton gold",
@@ -1802,8 +1813,16 @@
       "clientId": 4,
       "amount": 400,
       "date": "2026-09-07T08:50:38.699Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: game video",
+      "client": "David",
+      "clientId": 2,
+      "amount": 300,
+      "date": "2026-09-08T10:26:33.423Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 90
+  "nextProjectId": 91
 }
