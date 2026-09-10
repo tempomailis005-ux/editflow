@@ -4,7 +4,7 @@
       "id": 2,
       "name": "David",
       "email": "",
-      "advance": 14300,
+      "advance": 16300,
       "color": "#E84393",
       "accessCode": "Davidinsta*"
     },
@@ -36,17 +36,6 @@
       "charge": 0,
       "status": "upcoming",
       "createdAt": "2026-08-01T07:43:42.854Z"
-    },
-    {
-      "id": 76,
-      "clientId": 2,
-      "title": "upcoming",
-      "description": "",
-      "receivedDate": "2026-08-01",
-      "deadline": "2026-08-01",
-      "charge": 0,
-      "status": "inprogress",
-      "createdAt": "2026-08-01T07:43:27.958Z"
     },
     {
       "id": 90,
@@ -190,6 +179,17 @@
       "charge": 250,
       "status": "completed",
       "createdAt": "2026-08-11T15:31:33.110Z"
+    },
+    {
+      "id": 76,
+      "clientId": 2,
+      "title": "die with zero",
+      "description": "normal editing",
+      "receivedDate": "2026-08-01",
+      "deadline": "2026-08-01",
+      "charge": 200,
+      "status": "completed",
+      "createdAt": "2026-08-01T07:43:27.958Z"
     },
     {
       "id": 75,
@@ -1821,6 +1821,22 @@
       "clientId": 2,
       "amount": 300,
       "date": "2026-09-08T10:26:33.423Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "David",
+      "clientId": 2,
+      "amount": 2000,
+      "date": "2026-09-10T10:08:32.689Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: die with zero",
+      "client": "David",
+      "clientId": 2,
+      "amount": 200,
+      "date": "2026-09-10T10:09:11.017Z"
     }
   ],
   "nextClientId": 5,
