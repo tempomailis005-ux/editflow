@@ -38,6 +38,17 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
+      "id": 91,
+      "clientId": 4,
+      "title": "health and wealth",
+      "description": "infographic editing",
+      "receivedDate": "2026-09-11",
+      "deadline": "2026-09-11",
+      "charge": 400,
+      "status": "completed",
+      "createdAt": "2026-09-11T13:50:09.203Z"
+    },
+    {
       "id": 90,
       "clientId": 2,
       "title": "game video",
@@ -1837,8 +1848,16 @@
       "clientId": 2,
       "amount": 200,
       "date": "2026-09-10T10:09:11.017Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: health and wealth",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 400,
+      "date": "2026-09-11T13:50:09.203Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 91
+  "nextProjectId": 92
 }
