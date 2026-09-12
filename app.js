@@ -504,6 +504,19 @@ async function initApp() {
     populateClientSelect();
     dataReady = true;
 
+    // Auto-login via URL parameter (?code=xyz)
+    const urlParams = new URLSearchParams(window.location.search);
+    const autoCode = urlParams.get('code');
+    if (autoCode) {
+        const clientMatch = data.clients.find(c => c.accessCode === autoCode);
+        if (clientMatch) {
+            session = { role: 'client', clientId: clientMatch.id };
+            localStorage.setItem('editflow_session', JSON.stringify(session));
+            // Clean up the URL so it looks nice
+            window.history.replaceState({}, document.title, window.location.pathname);
+        }
+    }
+
     if (session) {
         currentUser = session;
         if (currentUser.role === 'admin' || (currentUser.role === 'client' && getClient(currentUser.clientId))) {
