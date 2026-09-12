@@ -6,7 +6,8 @@
       "email": "",
       "advance": 16300,
       "color": "#E84393",
-      "accessCode": "Davidinsta*"
+      "accessCode": "Davidinsta*",
+      "phone": "+91 72009 01500"
     },
     {
       "id": 3,
@@ -22,7 +23,8 @@
       "email": "",
       "advance": 6150,
       "color": "#E17055",
-      "accessCode": "naveeninsta*"
+      "accessCode": "naveeninsta*",
+      "phone": "+91 78269 60746"
     }
   ],
   "projects": [
