@@ -38,6 +38,17 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
+      "id": 92,
+      "clientId": 2,
+      "title": "dhiwesh vlog blind ranking video",
+      "description": "game editing",
+      "receivedDate": "2026-09-12",
+      "deadline": "2026-09-12",
+      "charge": 400,
+      "status": "completed",
+      "createdAt": "2026-09-12T10:57:44.868Z"
+    },
+    {
       "id": 91,
       "clientId": 4,
       "title": "health and wealth",
@@ -1856,8 +1867,16 @@
       "clientId": 4,
       "amount": 400,
       "date": "2026-09-11T13:50:09.203Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: dhiwesh vlog blind ranking video",
+      "client": "David",
+      "clientId": 2,
+      "amount": 400,
+      "date": "2026-09-12T10:57:44.868Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 92
+  "nextProjectId": 93
 }
