@@ -45,9 +45,9 @@
       "title": "john realy story",
       "description": "document edit",
       "receivedDate": "2026-09-15",
-      "deadline": "2026-09-15",
-      "charge": 0,
-      "status": "inprogress",
+      "deadline": "2026-09-16",
+      "charge": 400,
+      "status": "completed",
       "createdAt": "2026-09-15T06:43:47.255Z"
     },
     {
@@ -1888,6 +1888,14 @@
       "clientId": 2,
       "amount": 400,
       "date": "2026-09-12T10:57:44.868Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: john realy story",
+      "client": "David",
+      "clientId": 2,
+      "amount": 400,
+      "date": "2026-09-16T09:13:55.662Z"
     }
   ],
   "nextClientId": 5,
