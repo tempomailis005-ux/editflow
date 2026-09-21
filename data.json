@@ -21,7 +21,7 @@
       "id": 4,
       "name": "Naveen bro",
       "email": "",
-      "advance": 6150,
+      "advance": 8150,
       "color": "#E17055",
       "accessCode": "naveeninsta*",
       "phone": "+91 78269 60746"
@@ -38,6 +38,17 @@
       "charge": 0,
       "status": "upcoming",
       "createdAt": "2026-08-01T07:43:42.854Z"
+    },
+    {
+      "id": 94,
+      "clientId": 4,
+      "title": "gold is not expensive",
+      "description": "info editing",
+      "receivedDate": "2026-09-21",
+      "deadline": "2026-09-21",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-09-21T10:26:54.446Z"
     },
     {
       "id": 93,
@@ -1896,8 +1907,24 @@
       "clientId": 2,
       "amount": 400,
       "date": "2026-09-16T09:13:55.662Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: gold is not expensive",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-09-21T10:26:54.446Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 2000,
+      "date": "2026-09-21T10:27:01.662Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 94
+  "nextProjectId": 95
 }
