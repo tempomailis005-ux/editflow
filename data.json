@@ -40,6 +40,17 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
+      "id": 95,
+      "clientId": 2,
+      "title": "guru crackers promotion",
+      "description": "promotion edit",
+      "receivedDate": "2026-09-24",
+      "deadline": "2026-09-24",
+      "charge": 0,
+      "status": "inprogress",
+      "createdAt": "2026-09-24T06:59:31.222Z"
+    },
+    {
       "id": 94,
       "clientId": 4,
       "title": "gold is not expensive",
@@ -1926,5 +1937,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 95
+  "nextProjectId": 96
 }
