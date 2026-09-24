@@ -46,8 +46,8 @@
       "description": "promotion edit",
       "receivedDate": "2026-09-24",
       "deadline": "2026-09-24",
-      "charge": 0,
-      "status": "inprogress",
+      "charge": 300,
+      "status": "completed",
       "createdAt": "2026-09-24T06:59:31.222Z"
     },
     {
@@ -1934,6 +1934,14 @@
       "clientId": 4,
       "amount": 2000,
       "date": "2026-09-21T10:27:01.662Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: guru crackers promotion",
+      "client": "David",
+      "clientId": 2,
+      "amount": 300,
+      "date": "2026-09-24T12:02:44.886Z"
     }
   ],
   "nextClientId": 5,
