@@ -40,6 +40,17 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
+      "id": 96,
+      "clientId": 4,
+      "title": "dhanush long video",
+      "description": "youtube edit",
+      "receivedDate": "2026-09-25",
+      "deadline": "2026-09-25",
+      "charge": 0,
+      "status": "inprogress",
+      "createdAt": "2026-09-25T05:55:54.254Z"
+    },
+    {
       "id": 95,
       "clientId": 2,
       "title": "guru crackers promotion",
@@ -1945,5 +1956,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 96
+  "nextProjectId": 97
 }
