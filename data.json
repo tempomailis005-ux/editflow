@@ -42,12 +42,12 @@
     {
       "id": 97,
       "clientId": 4,
-      "title": "client testimonial",
-      "description": "",
+      "title": "client testimonial 01",
+      "description": "normal edit",
       "receivedDate": "2026-09-29",
       "deadline": "2026-09-29",
-      "charge": 0,
-      "status": "inprogress",
+      "charge": 250,
+      "status": "completed",
       "createdAt": "2026-09-29T06:29:04.144Z"
     },
     {
@@ -1972,6 +1972,14 @@
       "clientId": 4,
       "amount": 750,
       "date": "2026-09-28T09:34:42.402Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: client testimonial 01",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 250,
+      "date": "2026-09-29T11:01:23.769Z"
     }
   ],
   "nextClientId": 5,
