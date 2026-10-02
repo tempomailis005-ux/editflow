@@ -40,14 +40,25 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
+      "id": 99,
+      "clientId": 2,
+      "title": "gems game edit",
+      "description": "game edit",
+      "receivedDate": "2026-10-02",
+      "deadline": "2026-10-02",
+      "charge": 0,
+      "status": "inprogress",
+      "createdAt": "2026-10-02T06:49:06.878Z"
+    },
+    {
       "id": 98,
       "clientId": 4,
       "title": "testimonian #2",
       "description": "normal edit",
       "receivedDate": "2026-10-01",
-      "deadline": "2026-10-01",
-      "charge": 0,
-      "status": "inprogress",
+      "deadline": "2026-10-02",
+      "charge": 200,
+      "status": "completed",
       "createdAt": "2026-10-01T07:08:43.163Z"
     },
     {
@@ -1991,8 +2002,16 @@
       "clientId": 4,
       "amount": 250,
       "date": "2026-09-29T11:01:23.769Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: testimonian #2",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 200,
+      "date": "2026-10-02T06:48:29.526Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 99
+  "nextProjectId": 100
 }
