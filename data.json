@@ -46,8 +46,8 @@
       "description": "game edit",
       "receivedDate": "2026-10-02",
       "deadline": "2026-10-02",
-      "charge": 0,
-      "status": "inprogress",
+      "charge": 300,
+      "status": "completed",
       "createdAt": "2026-10-02T06:49:06.878Z"
     },
     {
@@ -2010,6 +2010,14 @@
       "clientId": 4,
       "amount": 200,
       "date": "2026-10-02T06:48:29.526Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: gems game edit",
+      "client": "David",
+      "clientId": 2,
+      "amount": 300,
+      "date": "2026-10-02T10:38:40.048Z"
     }
   ],
   "nextClientId": 5,
