@@ -40,6 +40,17 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
+      "id": 101,
+      "clientId": 2,
+      "title": "8ball pool challenge",
+      "description": "gME EDIT",
+      "receivedDate": "2026-10-03",
+      "deadline": "2026-10-04",
+      "charge": 0,
+      "status": "inprogress",
+      "createdAt": "2026-10-03T12:31:43.777Z"
+    },
+    {
       "id": 100,
       "clientId": 4,
       "title": "testimonial #03",
@@ -2048,5 +2059,5 @@
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 101
+  "nextProjectId": 102
 }
