@@ -21,7 +21,7 @@
       "id": 4,
       "name": "Naveen bro",
       "email": "",
-      "advance": 8150,
+      "advance": 10150,
       "color": "#E17055",
       "accessCode": "naveeninsta*",
       "phone": "+91 78269 60746"
@@ -2056,6 +2056,14 @@
       "clientId": 4,
       "amount": 200,
       "date": "2026-10-03T12:31:07.097Z"
+    },
+    {
+      "type": "credit",
+      "title": "Additional payment received",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 2000,
+      "date": "2026-10-06T10:39:46.782Z"
     }
   ],
   "nextClientId": 5,
