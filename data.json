@@ -40,17 +40,6 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
-      "id": 101,
-      "clientId": 2,
-      "title": "8ball pool challenge",
-      "description": "gME EDIT",
-      "receivedDate": "2026-10-03",
-      "deadline": "2026-10-04",
-      "charge": 0,
-      "status": "inprogress",
-      "createdAt": "2026-10-03T12:31:43.777Z"
-    },
-    {
       "id": 102,
       "clientId": 4,
       "title": "testimonial vid 04",
@@ -60,6 +49,17 @@
       "charge": 200,
       "status": "completed",
       "createdAt": "2026-10-07T07:28:41.348Z"
+    },
+    {
+      "id": 101,
+      "clientId": 2,
+      "title": "8ball pool challenge",
+      "description": "gME EDIT",
+      "receivedDate": "2026-10-03",
+      "deadline": "2026-10-07",
+      "charge": 400,
+      "status": "completed",
+      "createdAt": "2026-10-03T12:31:43.777Z"
     },
     {
       "id": 100,
@@ -2083,6 +2083,14 @@
       "clientId": 4,
       "amount": 200,
       "date": "2026-10-07T07:28:41.348Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: 8ball pool challenge",
+      "client": "David",
+      "clientId": 2,
+      "amount": 400,
+      "date": "2026-10-07T10:39:09.190Z"
     }
   ],
   "nextClientId": 5,
