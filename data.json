@@ -40,6 +40,17 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
+      "id": 106,
+      "clientId": 4,
+      "title": "GyanTV- 1,2,3",
+      "description": "rough cut each 70rs",
+      "receivedDate": "2026-10-15",
+      "deadline": "2026-10-15",
+      "charge": 210,
+      "status": "completed",
+      "createdAt": "2026-10-15T11:02:32.448Z"
+    },
+    {
       "id": 105,
       "clientId": 4,
       "title": "testimonial all",
@@ -2148,8 +2159,16 @@
       "clientId": 4,
       "amount": 300,
       "date": "2026-10-12T15:39:27.039Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: GyanTV- 1,2,3",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 210,
+      "date": "2026-10-15T11:02:32.448Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 106
+  "nextProjectId": 107
 }
