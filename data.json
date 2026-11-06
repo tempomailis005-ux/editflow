@@ -40,6 +40,28 @@
       "createdAt": "2026-08-01T07:43:42.854Z"
     },
     {
+      "id": 108,
+      "clientId": 4,
+      "title": "goldcart diwali video 2",
+      "description": "infomative editing",
+      "receivedDate": "2026-11-04",
+      "deadline": "2026-11-05",
+      "charge": 400,
+      "status": "completed",
+      "createdAt": "2026-11-06T17:07:03.901Z"
+    },
+    {
+      "id": 107,
+      "clientId": 4,
+      "title": "goldcart diwali video",
+      "description": "infomative edit",
+      "receivedDate": "2026-11-03",
+      "deadline": "2026-11-04",
+      "charge": 300,
+      "status": "completed",
+      "createdAt": "2026-11-06T17:06:12.757Z"
+    },
+    {
       "id": 106,
       "clientId": 4,
       "title": "GyanTV- 1,2,3",
@@ -2175,8 +2197,24 @@
       "clientId": 4,
       "amount": 2000,
       "date": "2026-10-20T08:20:33.532Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: goldcart diwali video",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 300,
+      "date": "2026-11-06T17:06:12.757Z"
+    },
+    {
+      "type": "debit",
+      "title": "Completed: goldcart diwali video 2",
+      "client": "Naveen bro",
+      "clientId": 4,
+      "amount": 400,
+      "date": "2026-11-06T17:07:03.901Z"
     }
   ],
   "nextClientId": 5,
-  "nextProjectId": 107
+  "nextProjectId": 109
 }
